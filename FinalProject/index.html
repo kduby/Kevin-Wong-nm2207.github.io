@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/appstyle.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <h1>Present & Journey</h1>
+        <a href="./settings.html">click me <img src="./resources/settings.svg"></a>
+        <h2>User Reflections on their Day DD/MM/YYYY</h2>
+        <h2>Past</h2>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <h2>Present</h2>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <h2>Future</h2>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <h1>User Reflection Chart Placeholder</h2>
+        <canvas id="myChart" width="1600" height="900"></canvas>
+
+    </div>
+    <script src="appscripts/main.js"></script>
+    
+  </body>
+</html>
