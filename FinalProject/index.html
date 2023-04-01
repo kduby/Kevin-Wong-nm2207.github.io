@@ -4,23 +4,26 @@
     <head>
         <link rel="stylesheet" type="text/css" href="./css/appstyle.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-        
     </head>
 
   <body>
     <div class="wrapper">
+      <div class="app_header">
         <h1>Present & Journey</h1>
-        <a href="./settings.html">click me <img src="./resources/settings.svg"></a>
-        <h2>User Reflections on their Day DD/MM/YYYY</h2>
-        <h2>Past</h2>
+        <a href="./settings.html"><img id="settings" src="./resources/settings.svg"></a>
+      </div >
+        
+        <h2>User Reflections on their Day</h2>
+        <h2 id="time"></h2>
+        <h3>Past</h3>
         <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <h2>Present</h2>
+        <h3>Present</h3>
         <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <h2>Future</h2>
+        <h3>Future</h3>
         <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <h1>User Reflection Chart Placeholder</h2>
-        <canvas id="myChart" width="1600" height="900"></canvas>
-
+        <a href="./dashboard.html">Save</a>
+        <!-- <h1>March</h2>
+        <canvas id="myChart" width="1600" height="900"></canvas> -->
     </div>
     <script src="appscripts/main.js"></script>
     

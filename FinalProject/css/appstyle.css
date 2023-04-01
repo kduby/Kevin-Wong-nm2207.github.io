@@ -4,10 +4,20 @@ body {
   }
   
   .wrapper {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
   }
-  
+
+  .app_header {
+    display:center;
+  }
+
+  #settings {
+    position: absolute;
+        top: 0px;
+        right: 0px;
+  }
+
   h1 {
     font-weight: 200;
     font-size: 3em;
@@ -15,6 +25,13 @@ body {
   }
   
   h2 {
+    font-weight: 200;
+    font-size: 2em;
+    margin: 0 0 50px;
+    color: #999;
+  }
+
+  h3 {
     font-weight: 200;
     font-size: 0.9em;
     margin: 0 0 50px;
