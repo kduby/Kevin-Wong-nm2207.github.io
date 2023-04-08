@@ -43,3 +43,11 @@ var myChart = new Chart("myChart", {
   console.log(now);
 
   document.getElementById("time").textContent = now;
+
+  
+
+
+
+
+
+  
