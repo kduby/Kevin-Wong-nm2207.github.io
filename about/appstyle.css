@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;;
+    font-family: Helvetica Neue, Arial, sans-serif;
     text-align: center;
     background-color: #f1f9f9;
   }
@@ -19,8 +19,18 @@ body {
 
   #settings {
     position: absolute;
-        top: 0px;
-        right: 0px;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #about {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
   }
 
   h1 {
