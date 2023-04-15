@@ -2,16 +2,38 @@ body {
   font-family: Helvetica Neue, Arial, sans-serif;
   text-align: center;
   background-color: #f1f9f9;
-}
   
+}
+/* document.querySelector("body > div > div:nth-child(1)") */
 .wrapper {
   max-width: 1000px;
   margin: 50px auto;
+  /* opacity: 0;
+  transition: opacity 3s; */
+}
+
+.main_app_header {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  /* display:center;
+  margin: 20px 20px 20px; */
+  transition: opacity 5s;
+  opacity: 1;
+}
+
+.application {
+  transition: opacity 15s;
+  opacity: 0;
 }
 
 .app_header {
   display:center;
   margin: 20px 20px 20px;
+  /* transition: opacity 5s;
+  opacity: 0; */
 }
 
 .flex-container {
@@ -29,7 +51,7 @@ body {
 #about {
   position: absolute;
   top: 0px;
-  right: 50px;
+  right: 0px;
   width: 30px;
   height: 30px;
 }
@@ -58,7 +80,7 @@ h3 {
 a {
   margin-top: 50px;
   display: block;
-  color: #3e95cd;
+  /* color: #3e95cd; */
 }
 /* Tooltip container */
 .tooltip {

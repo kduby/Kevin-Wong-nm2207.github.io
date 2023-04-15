@@ -3,39 +3,41 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./appstyle.css">
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script> -->
     </head>
 
-  <body>
-    <div class="wrapper">
-      <div class="app_header">
+  <body onload=fade()>
+    <div class="wrapper" >
+      <div class="main_app_header" id="Fade" >
         <h1>Journey</h1>
-        <!-- <a href="./settings/settings.html"><img id="settings" src="./resources/settings.svg"></a> -->
+        <h3 id="quote">Live Laugh Love</h3>
+        <h3 id="time"></h3>
+      </div >
+      <div class="application" id="Appear">
         <a href="./about/about.html"><img id="about" src="./resources/info.svg"></a>
         <i class="fa-sharp fa-light fa-gears"></i>
-      </div >
-
-      <div class="app_header">
-        <h3 id="time"></h3>
-        <h2>How did you live today?</h2>
-       
-
-        <!-- Mainly for grading/testing purposes -->
-        
-        <input id="custom_date" type="date"> </input>
-        <div class="tooltip"> Select Date?
-          <span class="tooltiptext">Testing/Grading Purposes: Iterate through each day of the current month to store data for line graph. Otherwise only one dot if tested within a day. </h4></span>
+        <div class="app_header">
+          
+          <h2>How did you live today?</h2>
+         
+  
+          <!-- Mainly for grading/testing purposes -->
+          
+          <input id="custom_date" type="date"> </input>
+          <div class="tooltip"> Select Date?
+            <span class="tooltiptext">Testing/Grading Purposes: Iterate through each day of the current month to store data for line graph. Otherwise only one dot if tested within a day. </h4></span>
+          </div>
         </div>
-      </div>
-       
-       
-      <div>
-        <scale-slider id="Past"></scale-slider>
-        <scale-slider id="Present"></scale-slider>
-        <scale-slider id="Future"></scale-slider>
-      </div>
-    
+         
+         
+        <div>
+          <scale-slider id="Past"></scale-slider>
+          <scale-slider id="Present"></scale-slider>
+          <scale-slider id="Future"></scale-slider>
+        </div>
+      
         <button onClick="saveData()">Save</button>
+      </div>
+      
     </div>
     <script src="./main.js"></script>
     <script src="./components/slider.js" type="module"></script>

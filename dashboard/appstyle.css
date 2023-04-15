@@ -12,7 +12,15 @@ body {
     display:center;
   }
 
-  #settings {
+  /* #settings {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+  } */
+
+  #about {
     position: absolute;
     top: 0px;
     right: 0px;

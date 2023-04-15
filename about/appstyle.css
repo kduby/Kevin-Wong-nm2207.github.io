@@ -25,13 +25,7 @@ body {
     height: 30px;
   }
 
-  #about {
-    position: absolute;
-    top: 0px;
-    right: 50px;
-    width: 30px;
-    height: 30px;
-  }
+
 
   h1 {
     font-weight: 200;
@@ -41,8 +35,8 @@ body {
   
   h2 {
     font-weight: 200;
-    font-size: 2em;
-    margin: 0 0 50px;
+    font-size: 1em;
+    margin: 0 50px 50px;
     color: #999;
   }
 
